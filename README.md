@@ -32,8 +32,8 @@ MySQL or MariaDB can be used as the database for this project. The database conn
 
 ```properties
     db.url=jdbc:mysql://[ip address of db]:[port of db]/ecommjava?createDatabaseIfNotExist=true
-    db.username=[username]
-    db.password=[password, if any]
+    db.username=[naveenchandrabashu]
+    db.password=[12345678]
 ```
 
 if you met the error `java.lang.IllegalArgumentException: Could not resolve placeholder 'db.driver' in value "${db.driver}"`, maybe you should change your `mysql-connector-java` version in `pom.xml` file according to your mysql version, don't forget to reload your Maven project.
